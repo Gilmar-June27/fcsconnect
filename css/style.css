@@ -1,0 +1,36 @@
+.message-box {
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1000;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    width: 100%; /* Full width */
+}
+
+@media (max-width: 767.98px) { /* Mobile devices */
+    .message-box {
+        width: 80vw; /* 80% of viewport width */
+        max-width: 400px; /* Optional: Set a max width */
+    }
+}
+
+@media (min-width: 768px) { /* Tablets and up */
+    .message-box {
+        width: auto; /* Use default width for larger screens */
+    }
+}
+
+.alert-success {
+    background-color: #efdece;
+    color: green;
+}
+
+.alert-warning {
+    background-color: #cfedd6;
+    color: orange;
+}
+
+.btn-close {
+    cursor: pointer;
+}
